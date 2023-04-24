@@ -1,16 +1,16 @@
 import {Button, Col, Row} from "react-bootstrap";
-import {Images} from "../Configs/images";
-import traffic from "../Assets/img/traffic.svg";
-import RAM from "../Assets/img/ram.svg";
-import CPU from "../Assets/img/cpu.svg";
-import SSD from "../Assets/img/ssd.svg";
-import SelectBox from "./SelectBox";
+import {Images} from "../../Configs/images";
+import traffic from "../../Assets/img/traffic.svg";
+import RAM from "../../Assets/img/ram.svg";
+import CPU from "../../Assets/img/cpu.svg";
+import SSD from "../../Assets/img/ssd.svg";
+import SelectBox from "../SelectBox/SelectBox";
 import React from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {RootState} from "../Stores/store";
-import {setPackegeSelectId} from "../Reducers/packegeSlice";
-import {ConvertIrrToIrt} from "../Utils/priceHandler";
-import {Package} from "../Interface/interfacePackage";
+import {RootState} from "../../Stores/store";
+import {setPackegeSelectId} from "../../Reducers/packegeSlice";
+import {ConvertIrrToIrt} from "../../Utils/priceHandler";
+import {Package} from "../../Interface/interfacePackage";
 
 /**
  * Interface definition

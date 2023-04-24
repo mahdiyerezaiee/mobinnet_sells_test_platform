@@ -4,11 +4,11 @@ $medium: 900px;
 
 @font-face {
   font-family: "Shabnam";
-  src: url("../../Assets/fonts/Shabnam-FD.eot"); /* IE9 Compat Modes */
-  src: url("../../Assets/fonts/Shabnam-FD.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("../../Assets/fonts/Shabnam-FD.ttf") format("truetype"), /* Safari, Android, iOS */
-  url("../../Assets/fonts/Shabnam-FD.woff") format("woff"), /* Modern Browsers */
-  url("../../Assets/fonts/Shabnam-FD.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../../../Assets/fonts/Shabnam-FD.eot"); /* IE9 Compat Modes */
+  src: url("../../../Assets/fonts/Shabnam-FD.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../../../Assets/fonts/Shabnam-FD.ttf") format("truetype"), /* Safari, Android, iOS */
+  url("../../../Assets/fonts/Shabnam-FD.woff") format("woff"), /* Modern Browsers */
+  url("../../../Assets/fonts/Shabnam-FD.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
@@ -24,14 +24,14 @@ font-family:"Shabnam" ;
   }
 }
 .bg-img{
-  background-image: url("../../Assets/img/background.png");
+  background-image: url("../../../Assets/img/background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 184px;
   height: 142px;
   @media (prefers-color-scheme: dark) {
 
-    background-image: url("../../Assets/img/background-dark.png");
+    background-image: url("../../../Assets/img/background-dark.png");
 
 
   }
@@ -159,7 +159,7 @@ path{
   box-shadow: 0 6px 18px 0 rgba(83, 199, 134, 0.6);
 
   &:before{
-    content: url("../../Assets/img/tik.svg");
+    content: url("../../../Assets/img/tik.svg");
   float: left;
     width: 45px;
     height: 47px;

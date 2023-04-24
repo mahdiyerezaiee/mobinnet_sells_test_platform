@@ -1,8 +1,8 @@
-import { selectPackegeDuration} from "../Reducers/packegeSlice";
+import { selectPackegeDuration} from "../../Reducers/packegeSlice";
 import React, {useReducer, useState} from "react";
 import {Button, ButtonGroup, Form, Nav} from "react-bootstrap";
 import {useDispatch, useSelector} from "react-redux";
-import {RootState} from "../Stores/store";
+import {RootState} from "../../Stores/store";
 interface Props {
     PackageType: number
     value : any

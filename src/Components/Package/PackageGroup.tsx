@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Row } from "react-bootstrap";
-import { RootState } from "../Stores/store";
-import { Package } from "../Interface/interfacePackage";
+import { RootState } from "../../Stores/store";
+import { Package } from "../../Interface/interfacePackage";
 import "./style/style.scss";
 import PackageItem from "./packageItem";
-import {fetchPackage} from "../Reducers/packegeSlice";
-import {groupByPackageType} from "../Utils/groupByPackageType";
+import {fetchPackage} from "../../Reducers/packegeSlice";
+import {groupByPackageType} from "../../Utils/groupByPackageType";
 
 /**
  * group packages groupBy packageType Component
