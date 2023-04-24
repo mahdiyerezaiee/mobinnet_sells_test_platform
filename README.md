@@ -8,7 +8,7 @@ To get started with the Mobinnet Project, follow these steps:
 
 1. Clone this repository to your local machine.
 ```
-git clone https://github.com/mahdiyerezaiee/mobinnet-test
+git clone https://github.com/mahdiyerezaiee/mobinnet_sells_test_platform
 ```
 2. Install the required packages.
 ```
