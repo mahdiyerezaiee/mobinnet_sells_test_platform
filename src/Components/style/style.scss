@@ -1,0 +1,212 @@
+$small: 600px;
+$medium: 900px;
+
+
+@font-face {
+  font-family: "Shabnam";
+  src: url("../../Assets/fonts/Shabnam-FD.eot"); /* IE9 Compat Modes */
+  src: url("../../Assets/fonts/Shabnam-FD.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../../Assets/fonts/Shabnam-FD.ttf") format("truetype"), /* Safari, Android, iOS */
+  url("../../Assets/fonts/Shabnam-FD.woff") format("woff"), /* Modern Browsers */
+  url("../../Assets/fonts/Shabnam-FD.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+font-family:"Shabnam" ;
+  @media (prefers-color-scheme: dark) {
+    background-color: #141414;
+    color: #FFFFFF!important;
+      --background-color: #141414; /* dark mode background color */
+      --text-color: #FFFFFF; /* dark mode text color */
+
+  }
+}
+.bg-img{
+  background-image: url("../../Assets/img/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 184px;
+  height: 142px;
+  @media (prefers-color-scheme: dark) {
+
+    background-image: url("../../Assets/img/background-dark.png");
+
+
+  }
+  img{
+    position: relative;
+    bottom: -2rem;
+    height: 52%;
+  }
+  .fixedImg{
+    right: -1rem;
+  }
+}
+select{
+  --bs-bg-opacity: 1;
+  background-color: rgba(225,230,239,100%)!important;
+  @media (prefers-color-scheme: dark) {
+    background-color: #191919!important;
+color: #FFFFFF!important;
+border: none!important;
+  }
+}
+.form-select {
+  background-position: left 0.75rem center!important;
+}
+.packageItem{
+  width: 100%;
+  margin: auto;
+  border: 2px solid transparent;
+
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.16);
+  @media (prefers-color-scheme: dark) {
+    background-color: #272727;
+    box-shadow: 0 4px 12px 4px rgba(255, 255, 255, 0.35);
+    color: #FFFFFF;
+    --background-color: #272727; /* dark mode background color */
+    --text-color: #FFFFFF; /* dark mode text color */
+
+  }
+
+  @media screen and (max-width: $small) {
+    margin-top: 30px!important;
+
+  }
+ button{
+   margin-top: 1rem;
+  width: 100%;
+   border-radius: 50px;
+   background: rgb(115,191,67);
+   background: linear-gradient(90deg, rgba(115,191,67,1) 0%, rgba(0,173,76,1) 100%);
+   border: none!important;
+   .tik{
+     float: right;
+     width: 22px;
+     padding: -1px;
+     margin: 5px auto;
+     background: #0AA047;
+     border: 5px solid #0AA047;
+     border-radius: 100%;
+
+   }
+
+}
+  .select-btn{
+    .tik{
+      float: right;
+      width: 22px;
+      padding: -1px;
+      margin: 5px auto;
+      background: #FFFF!important;
+      border: 5px solid #FFFFFF!important;
+      border-radius: 100%;
+      path{
+        stroke: #0AA047!important;
+
+      }
+    }
+  }
+  h5{
+    font-weight: bolder;
+    color: #00AD4C;
+    font-size: 18px;
+    @media (prefers-color-scheme: dark) {
+
+      color: #FFFFFF;
+
+
+    }
+  }
+  .price{
+    font-size: x-large;
+
+  }
+  .currency{
+    color:#66918F;
+    font-size: x-small;
+    margin: 10px auto;
+    @media (prefers-color-scheme: dark) {
+      color: #FFFFFF;
+
+
+    }
+  }
+  span{
+    font-size: 12px;
+    color: #7D91B3;
+    @media (prefers-color-scheme: dark) {
+      color: #FFFFFF;
+
+
+    }
+  }
+path{
+  @media (prefers-color-scheme: dark) {
+    stroke: #FFFFFF!important;
+
+
+  }
+}
+
+}
+.selected{
+  border: 2px solid #53C786;
+  box-shadow: 0 6px 18px 0 rgba(83, 199, 134, 0.6);
+
+  &:before{
+    content: url("../../Assets/img/tik.svg");
+  float: left;
+    width: 45px;
+    height: 47px;
+    border-radius: 8px 0px;
+    background-color:#53C786;
+    padding: 4%;
+}
+}
+.price-notDisconut{
+
+  text-align: right;
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-underline-offset: -5px;
+  text-decoration-line: line-through;
+}
+.discountPercent{
+  display: inline;
+  float: right;
+  background: rgb(255, 124, 109);
+  background: linear-gradient(90deg, rgb(255, 124, 109) 0%, rgb(245, 48, 127) 100%);
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 100%;
+  position: relative;
+  top: -1pc;
+
+  color: #FFFFFF;
+  @media screen and (max-width: $small) {
+    right: 5pc;
+
+  }
+  @media screen and (min-width: 1400px ){
+    right: 25%;
+
+  }
+  @media screen and (max-width: 900px ){
+    right: 24%;
+
+  }
+}
+.text-dark{
+  font-size: 10px!important;
+  @media (prefers-color-scheme: dark) {
+
+    color:#73BF43!important;
+
+  }
+}
