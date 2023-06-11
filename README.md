@@ -1,4 +1,4 @@
-# Mobinnet Test
+# Package sell
 
 The repository contains the code for the Mobinnet Test, providing a web page for selling the Mobinnets' products.
 
